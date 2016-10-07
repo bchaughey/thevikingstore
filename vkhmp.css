@@ -53,9 +53,15 @@ html {
 Start of Rules after reset
 ===================*/
 body{
-	font-family: Open Sans;
+	font-family: Open Sans,Helvetica;
 	margin-bottom: 70px;
 	min-height: 500px;
+
+    background-image:url(Resources/Wood.jpg);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 
 }
 
@@ -79,7 +85,7 @@ Header
 	}
 .navbar a {
 	text-decoration: none;
-	color:black;
+	color:white;
 	vertical-align: middle;
 	height:24px;
 	line-height: 24px;
@@ -89,6 +95,12 @@ Header
 	line-height: 24px;
 	vertical-align: middle;
 	padding-right: 10px;
+	background-color: white;
+	border-radius:5%;
+	padding-top: 5px;
+	padding-left:5px;
+	background-image: url()
+
 
 }
 .cart {
@@ -101,10 +113,9 @@ Header
 .header-image {
 	position:relative;
 	margin:auto;
-	max-height: 350px;
-	max-width: 900px;
-	height:350px;
-	width:100%;
+	width:900px;
+	height:440px;
+	
 	border: solid 1px;
 	min-width: 700px;
 
@@ -121,14 +132,14 @@ Header
 .header-image h1 {
 	position: absolute;
 	
-	top:130px;
+	top:170px;
 	border: solid 1px;
 	left:50%;
 	
 	margin-left: -300px; 	
 	letter-spacing: 3px;
-	color: grey;
-	text-shadow: 2px 2px #5e5e5e;
+	color: white;
+	text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.73);
 	font-size: 500%;
 }
 .taglines{
@@ -151,12 +162,15 @@ Header
 .tagline2 {
 	
 	height:50px;
-	border: solid 1px;
+	border: solid 1px black;
 	
 	line-height: 50px;
 	text-align: center;
 	font-size: 1.5em;
 	font-family: sans-serif;
+	color: white;
+	text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.73);
+	background-color:rgba(51, 51, 51, 0.5);
 }
 /*
 ================================
@@ -183,7 +197,7 @@ Body
 	
 	height:300px;
 	border: solid 1px;
-	background-color:#333333;
+	background-color:rgba(51, 51, 51, 0.5);
 	position: relative;
 }
 .store-items .item-1-3 img{
@@ -199,6 +213,8 @@ padding-top: 7px;
 	color:white;
 	margin-top: 23px;
 	font-size: 1.2em;
+	padding-bottom: 10px;
+	text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.73);
 }
 .store-items .item-1-3 p{
 position: absolute;
@@ -210,6 +226,7 @@ width:47px;
 background-color: white;
 z-index: 1;
 padding: 3px;
+
 }
 .store-items .item-1-3 input{
 	text-orientation: none;
@@ -222,21 +239,41 @@ padding: 3px;
 	width:100px;
 	height:30px;
 	font-size: 1em;
+
+
+
 }
 .store-items .item-1-3 input:hover {
 	background-color: #a8611a;
+	cursor: pointer;
+	box-shadow: inset 0 0 5px #000000;
+}
+.pagination-div{
+	width: 900px;
+	margin:auto;
 }
 .pagination-div ul li{
-width: 20px;	
-display: inline-block;
 
+display: inline-block;
+color: black;
+margin:5px;
 	
 	
 }
 .pagination-div ul{
 
 text-align: center;	
+color: black;
 
+
+}
+.pagination-div li a{
+	color: #333333;
+	margin:1px;
+}
+.pagination-div li a:hover{
+	color: black;
+	cursor: pointer;
 }
 
 /*
@@ -258,6 +295,7 @@ Footer
 	border:solid 1px black;
 	background-color:  #333333;
 	color: white;
+	color: #F6B26B;
 }
 .contact img{
 	vertical-align: middle;
@@ -269,29 +307,31 @@ Footer
 	padding-top: 12px;
 	padding-bottom: 7px;
 	margin-right: 5px;
-	
+	}
 
-
-
-
+.contact h2{
+	font-size: 1.1em;
 }
 .contact .horn{
 	margin: auto;
-	width: 255px;
+	width: 300px;
 	border: 1px solid;
 	text-align: left;
 	padding-left: 30px;
 	
 	padding-bottom: 5px;
+	color: white;
 
 }
 .contact .email{
 	border:1px solid;
 	margin:auto;
-	width:255px;
+	width:300px;
 	text-align: left;
 	padding-left: 30px;
 	padding-top: 5px;
+	color:white;
+
 }
 .contact .email h2{
 	display: inline-block;
@@ -300,6 +340,13 @@ Footer
 }
 .horn-icon{
 	color: white;
+}
+.contact a{
+	text-decoration: none;
+	color: white;
+}
+.contact a:hover{
+	color: black;
 }
 
 
