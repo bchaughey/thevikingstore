@@ -73,15 +73,27 @@ Header
 ================================
 */
 .navbar {
-	display: inline-block;
-	width: 100%;
-	height:40px;
-	line-height: 40px;
+	margin:auto;
+	position: relative;
+	width: 900px;
+	height:50px;
+	line-height: 50px;
 	vertical-align: middle;
-	max-width: 900px;
+	min-width: 900px;
+	
+	
+
+
 	}
 	.navbar .vks {
-		padding-left:100px;
+		padding-left:70px;
+		font-size: 20px;
+	}
+	.navbar .ycart{
+		font-size:20px;
+		margin-right: 10px;
+
+
 	}
 .navbar a {
 	text-decoration: none;
@@ -89,18 +101,18 @@ Header
 	vertical-align: middle;
 	height:24px;
 	line-height: 24px;
+	text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.73);
 }
 .navbar img{
 	height:24px;
 	line-height: 24px;
 	vertical-align: middle;
 	padding-right: 10px;
-	background-color: white;
+	
 	border-radius:5%;
 	padding-top: 5px;
-	padding-left:5px;
-	background-image: url()
-
+	padding-right:5px;
+	background-color: rgb(252, 252, 252);
 
 }
 .cart {
@@ -133,7 +145,7 @@ Header
 	position: absolute;
 	
 	top:170px;
-	border: solid 1px;
+	
 	left:50%;
 	
 	margin-left: -300px; 	
@@ -157,7 +169,7 @@ Header
 	font-weight: 700;
 	font-family: sans-serif;
 	color:white;
-	background-color: grey;
+	background-color: #3a4166;
 }
 .tagline2 {
 	
@@ -181,7 +193,7 @@ Body
 	margin:auto;
 	width:900px;
 	max-height: 900px;
-	border: solid 1px;
+	
 	
 	padding: 30px;
 	padding-left: 65px;
@@ -219,8 +231,8 @@ padding-top: 7px;
 .store-items .item-1-3 p{
 position: absolute;
 text-align: center;
-left:197px;
-top:47px;
+left:195px;
+top:56px;
 border:solid 1px black;
 width:47px;
 background-color: white;
@@ -247,6 +259,7 @@ padding: 3px;
 	background-color: #a8611a;
 	cursor: pointer;
 	box-shadow: inset 0 0 5px #000000;
+	color:#424242;
 }
 .pagination-div{
 	width: 900px;
@@ -257,6 +270,7 @@ padding: 3px;
 display: inline-block;
 color: black;
 margin:5px;
+text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.73);
 	
 	
 }
@@ -268,12 +282,21 @@ color: black;
 
 }
 .pagination-div li a{
-	color: #333333;
+	color: white;
 	margin:1px;
 }
+.pagination-div li a.active{
+	text-decoration: none;
+}    
 .pagination-div li a:hover{
 	color: black;
 	cursor: pointer;
+}
+.pagination-div .quo{
+	text-decoration: none;
+}
+.pagination-div li a.active:hover{
+	color:white;
 }
 
 /*
@@ -311,11 +334,12 @@ Footer
 
 .contact h2{
 	font-size: 1.1em;
+
 }
 .contact .horn{
 	margin: auto;
 	width: 300px;
-	border: 1px solid;
+	
 	text-align: left;
 	padding-left: 30px;
 	
@@ -324,7 +348,7 @@ Footer
 
 }
 .contact .email{
-	border:1px solid;
+	
 	margin:auto;
 	width:300px;
 	text-align: left;
@@ -348,6 +372,25 @@ Footer
 .contact a:hover{
 	color: black;
 }
+
+/*
+========================
+Sources Used
+Icons -
+Shopping Cart
+
+By Edward Boatman of the nount project
+
+Horn
+By Veysel Kara, TR of the noun project
+
+Scroll
+By Rflor of the noun project
+
+Thank you
+
+
+Viking Ship - Cindy http://highlandheart-decor.tumblr.com/ 
 
 
 
